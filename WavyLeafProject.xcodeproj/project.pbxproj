@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A7AD9717FC816900BFD66B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A7AD9617FC816900BFD66B /* GoogleMaps.framework */; };
+		41A7AD9917FC817200BFD66B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41A7AD9817FC817200BFD66B /* GoogleMaps.bundle */; };
+		41B7159C17FDE4BB00C824DF /* WLNewSighting.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B7159B17FDE4BB00C824DF /* WLNewSighting.xib */; };
+		DD03A62C17150A5C00B29C78 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03A62B17150A5C00B29C78 /* plus.png */; };
+		DD03A62E17150A7200B29C78 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03A62D17150A7200B29C78 /* plus@2x.png */; };
+		DD03A63017150FF300B29C78 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03A62F17150FF300B29C78 /* play@2x.png */; };
+		DD03A63217150FFC00B29C78 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = DD03A63117150FFC00B29C78 /* play.png */; };
+		DD052CC6171BB036008A6BEF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93B16F6782C004B9426 /* libicucore.dylib */; };
+		DD052CC7171BB03E008A6BEF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93F16F6783B004B9426 /* libz.dylib */; };
+		DD07525816F4D66C00370D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD07525716F4D66C00370D1A /* UIKit.framework */; };
+		DD07525A16F4D66C00370D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD07525916F4D66C00370D1A /* Foundation.framework */; };
+		DD07525C16F4D66C00370D1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD07525B16F4D66C00370D1A /* CoreGraphics.framework */; };
+		DD07526216F4D66C00370D1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD07526016F4D66C00370D1A /* InfoPlist.strings */; };
+		DD07526416F4D66C00370D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD07526316F4D66C00370D1A /* main.m */; };
+		DD07526816F4D66C00370D1A /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD07526716F4D66C00370D1A /* WLAppDelegate.m */; };
+		DD07526A16F4D66C00370D1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07526916F4D66C00370D1A /* Default.png */; };
+		DD07526C16F4D66C00370D1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07526B16F4D66C00370D1A /* Default@2x.png */; };
+		DD07526E16F4D66C00370D1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD07526D16F4D66C00370D1A /* Default-568h@2x.png */; };
+		DD07527D16F4D79700370D1A /* WLNewRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD07527B16F4D79700370D1A /* WLNewRecordViewController.m */; };
+		DD07527E16F4D79700370D1A /* WLNewRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD07527C16F4D79700370D1A /* WLNewRecordViewController.xib */; };
+		DD29059F1735DB100053E689 /* WLNewTripSightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD29059D1735DB100053E689 /* WLNewTripSightViewController.m */; };
+		DD2905A01735DB100053E689 /* WLNewTripSightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD29059E1735DB100053E689 /* WLNewTripSightViewController.xib */; };
+		DD2905AB1737ED190053E689 /* WLAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2905AA1737ED190053E689 /* WLAppIcon.png */; };
+		DD2905AD1737ED1D0053E689 /* WLAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2905AC1737ED1D0053E689 /* WLAppIcon@2x.png */; };
+		DD2D8BE8171F748600B3DCD2 /* WLDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D8BE7171F748600B3DCD2 /* WLDataStorage.m */; };
+		DD5E7FD317CFB105002610A1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E7FD217CFB105002610A1 /* Reachability.m */; };
+		DD77740A1708E9F600C6F37F /* WLEditMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7774081708E9F500C6F37F /* WLEditMapViewController.m */; };
+		DD77740B1708E9F600C6F37F /* WLEditMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7774091708E9F600C6F37F /* WLEditMapViewController.xib */; };
+		DD77740D1708EF4E00C6F37F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD77740C1708EF4E00C6F37F /* libc++.dylib */; };
+		DD77741017090A8D00C6F37F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD77740F17090A8D00C6F37F /* MapKit.framework */; };
+		DD796E2816F94E4800AB6E97 /* WLTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD796E2616F94E4800AB6E97 /* WLTripViewController.m */; };
+		DD796E2916F94E4800AB6E97 /* WLTripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD796E2716F94E4800AB6E97 /* WLTripViewController.xib */; };
+		DD7BDBD317CBFB6D0021763C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7BDBD217CBFB6D0021763C /* Base64.m */; };
+		DD965F6B176972840012B5F2 /* WLline.m in Sources */ = {isa = PBXBuildFile; fileRef = DD965F6A176972840012B5F2 /* WLline.m */; };
+		DD97E2F817777F7F0072E874 /* WLAccountExtendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD97E2F617777F7F0072E874 /* WLAccountExtendedVC.m */; };
+		DD97E2F917777F7F0072E874 /* WLAccountExtendedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD97E2F717777F7F0072E874 /* WLAccountExtendedVC.xib */; };
+		DDAF8DC7170A47ED00601738 /* WLMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF8DC6170A47ED00601738 /* WLMapPoint.m */; };
+		DDBB735717F3C60300E4AA13 /* WLPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBB735517F3C60300E4AA13 /* WLPopupView.m */; };
+		DDBB735817F3C60300E4AA13 /* WLPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBB735617F3C60300E4AA13 /* WLPopupView.xib */; };
+		DDBB735E17F3CDBE00E4AA13 /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBB735D17F3C84100E4AA13 /* UIViewController+MJPopupViewController.m */; };
+		DDBB735F17F3CDDD00E4AA13 /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBB735B17F3C84100E4AA13 /* MJPopupBackgroundView.m */; };
+		DDC241F517E4190800A778E9 /* WLAppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC241F417E4190700A778E9 /* WLAppIcon-120.png */; };
+		DDC241F717E4192600A778E9 /* WLAppIcon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC241F617E4192500A778E9 /* WLAppIcon-152.png */; };
+		DDC81315172DC3FF00DA8A49 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC81314172DC3FF00DA8A49 /* ActionSheetStringPicker.m */; };
+		DDC8131D1730BA0B00DA8A49 /* ic_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC8131C1730BA0B00DA8A49 /* ic_camera.png */; };
+		DDD5A93016F677FB004B9426 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A92F16F677FB004B9426 /* AVFoundation.framework */; };
+		DDD5A93216F67802004B9426 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93116F67802004B9426 /* CoreData.framework */; };
+		DDD5A93416F67809004B9426 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93316F67809004B9426 /* CoreLocation.framework */; };
+		DDD5A93616F6780F004B9426 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93516F6780F004B9426 /* CoreText.framework */; };
+		DDD5A93816F6781B004B9426 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93716F6781B004B9426 /* GLKit.framework */; };
+		DDD5A93A16F67822004B9426 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A93916F67822004B9426 /* ImageIO.framework */; };
+		DDD5A94216F67843004B9426 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A94116F67843004B9426 /* OpenGLES.framework */; };
+		DDD5A94416F67849004B9426 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A94316F67849004B9426 /* QuartzCore.framework */; };
+		DDD5A94616F6784E004B9426 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD5A94516F6784E004B9426 /* SystemConfiguration.framework */; };
+		DDE06B5A1751207A0085373B /* WLCreateAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE06B581751207A0085373B /* WLCreateAccountVC.m */; };
+		DDE06B5B1751207A0085373B /* WLCreateAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE06B591751207A0085373B /* WLCreateAccountVC.xib */; };
+		DDF946EE172D98B700BE9DD5 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF946ED172D98B700BE9DD5 /* ActionSheetCustomPicker.m */; };
+		DDF946F2172D993300BE9DD5 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF946F1172D993300BE9DD5 /* AbstractActionSheetPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41A7AD9617FC816900BFD66B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		41A7AD9817FC817200BFD66B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		41B7159B17FDE4BB00C824DF /* WLNewSighting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLNewSighting.xib; sourceTree = "<group>"; };
+		DD03A62B17150A5C00B29C78 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		DD03A62D17150A7200B29C78 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		DD03A62F17150FF300B29C78 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		DD03A63117150FFC00B29C78 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		DD07525316F4D66C00370D1A /* WavyLeafProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavyLeafProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD07525716F4D66C00370D1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD07525916F4D66C00370D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD07525B16F4D66C00370D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD07525F16F4D66C00370D1A /* WavyLeafProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WavyLeafProject-Info.plist"; sourceTree = "<group>"; };
+		DD07526116F4D66C00370D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD07526316F4D66C00370D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD07526516F4D66C00370D1A /* WavyLeafProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WavyLeafProject-Prefix.pch"; sourceTree = "<group>"; };
+		DD07526616F4D66C00370D1A /* WLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		DD07526716F4D66C00370D1A /* WLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
+		DD07526916F4D66C00370D1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DD07526B16F4D66C00370D1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DD07526D16F4D66C00370D1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD07527A16F4D79700370D1A /* WLNewRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNewRecordViewController.h; sourceTree = "<group>"; };
+		DD07527B16F4D79700370D1A /* WLNewRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLNewRecordViewController.m; sourceTree = "<group>"; };
+		DD07527C16F4D79700370D1A /* WLNewRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLNewRecordViewController.xib; sourceTree = "<group>"; };
+		DD29059C1735DB100053E689 /* WLNewTripSightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNewTripSightViewController.h; sourceTree = "<group>"; };
+		DD29059D1735DB100053E689 /* WLNewTripSightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLNewTripSightViewController.m; sourceTree = "<group>"; };
+		DD29059E1735DB100053E689 /* WLNewTripSightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLNewTripSightViewController.xib; sourceTree = "<group>"; };
+		DD2905AA1737ED190053E689 /* WLAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WLAppIcon.png; sourceTree = "<group>"; };
+		DD2905AC1737ED1D0053E689 /* WLAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WLAppIcon@2x.png"; sourceTree = "<group>"; };
+		DD2D8BE6171F748600B3DCD2 /* WLDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDataStorage.h; sourceTree = "<group>"; };
+		DD2D8BE7171F748600B3DCD2 /* WLDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLDataStorage.m; sourceTree = "<group>"; };
+		DD5E7FD117CFB105002610A1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DD5E7FD217CFB105002610A1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DD7774071708E9F500C6F37F /* WLEditMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLEditMapViewController.h; sourceTree = "<group>"; };
+		DD7774081708E9F500C6F37F /* WLEditMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLEditMapViewController.m; sourceTree = "<group>"; };
+		DD7774091708E9F600C6F37F /* WLEditMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLEditMapViewController.xib; sourceTree = "<group>"; };
+		DD77740C1708EF4E00C6F37F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		DD77740F17090A8D00C6F37F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD796E2516F94E4800AB6E97 /* WLTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTripViewController.h; sourceTree = "<group>"; };
+		DD796E2616F94E4800AB6E97 /* WLTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTripViewController.m; sourceTree = "<group>"; };
+		DD796E2716F94E4800AB6E97 /* WLTripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLTripViewController.xib; sourceTree = "<group>"; };
+		DD7BDBD117CBFB6D0021763C /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		DD7BDBD217CBFB6D0021763C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		DD965F69176972840012B5F2 /* WLline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLline.h; sourceTree = "<group>"; };
+		DD965F6A176972840012B5F2 /* WLline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLline.m; sourceTree = "<group>"; };
+		DD97E2F517777F7F0072E874 /* WLAccountExtendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAccountExtendedVC.h; sourceTree = "<group>"; };
+		DD97E2F617777F7F0072E874 /* WLAccountExtendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAccountExtendedVC.m; sourceTree = "<group>"; };
+		DD97E2F717777F7F0072E874 /* WLAccountExtendedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLAccountExtendedVC.xib; sourceTree = "<group>"; };
+		DDAF8DC5170A47ED00601738 /* WLMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMapPoint.h; sourceTree = "<group>"; };
+		DDAF8DC6170A47ED00601738 /* WLMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMapPoint.m; sourceTree = "<group>"; };
+		DDBB735417F3C60300E4AA13 /* WLPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPopupView.h; sourceTree = "<group>"; };
+		DDBB735517F3C60300E4AA13 /* WLPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPopupView.m; sourceTree = "<group>"; };
+		DDBB735617F3C60300E4AA13 /* WLPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLPopupView.xib; sourceTree = "<group>"; };
+		DDBB735A17F3C84100E4AA13 /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		DDBB735B17F3C84100E4AA13 /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		DDBB735C17F3C84100E4AA13 /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		DDBB735D17F3C84100E4AA13 /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		DDC241F417E4190700A778E9 /* WLAppIcon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WLAppIcon-120.png"; sourceTree = "<group>"; };
+		DDC241F617E4192500A778E9 /* WLAppIcon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WLAppIcon-152.png"; sourceTree = "<group>"; };
+		DDC81313172DC3FF00DA8A49 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		DDC81314172DC3FF00DA8A49 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		DDC8131C1730BA0B00DA8A49 /* ic_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_camera.png; sourceTree = "<group>"; };
+		DDD5A92F16F677FB004B9426 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDD5A93116F67802004B9426 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DDD5A93316F67809004B9426 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDD5A93516F6780F004B9426 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DDD5A93716F6781B004B9426 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DDD5A93916F67822004B9426 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DDD5A93B16F6782C004B9426 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		DDD5A93D16F67835004B9426 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		DDD5A93F16F6783B004B9426 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DDD5A94116F67843004B9426 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DDD5A94316F67849004B9426 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DDD5A94516F6784E004B9426 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DDE06B571751207A0085373B /* WLCreateAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCreateAccountVC.h; sourceTree = "<group>"; };
+		DDE06B581751207A0085373B /* WLCreateAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCreateAccountVC.m; sourceTree = "<group>"; };
+		DDE06B591751207A0085373B /* WLCreateAccountVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLCreateAccountVC.xib; sourceTree = "<group>"; };
+		DDE7FE6A17E0A63500C47567 /* WavyLeafProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WavyLeafProject.entitlements; sourceTree = "<group>"; };
+		DDF946EC172D98B700BE9DD5 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		DDF946ED172D98B700BE9DD5 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		DDF946F0172D993300BE9DD5 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		DDF946F1172D993300BE9DD5 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		DDF946F6172D9A6F00BE9DD5 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD07525016F4D66C00370D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD5A94616F6784E004B9426 /* SystemConfiguration.framework in Frameworks */,
+				DD052CC7171BB03E008A6BEF /* libz.dylib in Frameworks */,
+				DD052CC6171BB036008A6BEF /* libicucore.dylib in Frameworks */,
+				DD77740D1708EF4E00C6F37F /* libc++.dylib in Frameworks */,
+				DD77741017090A8D00C6F37F /* MapKit.framework in Frameworks */,
+				DDD5A94416F67849004B9426 /* QuartzCore.framework in Frameworks */,
+				DDD5A94216F67843004B9426 /* OpenGLES.framework in Frameworks */,
+				DDD5A93A16F67822004B9426 /* ImageIO.framework in Frameworks */,
+				DDD5A93816F6781B004B9426 /* GLKit.framework in Frameworks */,
+				DDD5A93616F6780F004B9426 /* CoreText.framework in Frameworks */,
+				DDD5A93416F67809004B9426 /* CoreLocation.framework in Frameworks */,
+				DDD5A93216F67802004B9426 /* CoreData.framework in Frameworks */,
+				DDD5A93016F677FB004B9426 /* AVFoundation.framework in Frameworks */,
+				DD07525816F4D66C00370D1A /* UIKit.framework in Frameworks */,
+				41A7AD9717FC816900BFD66B /* GoogleMaps.framework in Frameworks */,
+				DD07525A16F4D66C00370D1A /* Foundation.framework in Frameworks */,
+				DD07525C16F4D66C00370D1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD03A62917150A4A00B29C78 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDC241F417E4190700A778E9 /* WLAppIcon-120.png */,
+				DDC241F617E4192500A778E9 /* WLAppIcon-152.png */,
+				DD2905AA1737ED190053E689 /* WLAppIcon.png */,
+				DD2905AC1737ED1D0053E689 /* WLAppIcon@2x.png */,
+				DDC8131C1730BA0B00DA8A49 /* ic_camera.png */,
+				DD03A63117150FFC00B29C78 /* play.png */,
+				DD03A62F17150FF300B29C78 /* play@2x.png */,
+				DD03A62B17150A5C00B29C78 /* plus.png */,
+				DD03A62D17150A7200B29C78 /* plus@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DD07524816F4D66C00370D1A = {
+			isa = PBXGroup;
+			children = (
+				DD03A62917150A4A00B29C78 /* Images */,
+				DD07525D16F4D66C00370D1A /* WavyLeafProject */,
+				DD07525616F4D66C00370D1A /* Frameworks */,
+				DD07525416F4D66C00370D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD07525416F4D66C00370D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD07525316F4D66C00370D1A /* WavyLeafProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD07525616F4D66C00370D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A7AD9817FC817200BFD66B /* GoogleMaps.bundle */,
+				41A7AD9617FC816900BFD66B /* GoogleMaps.framework */,
+				DD77740C1708EF4E00C6F37F /* libc++.dylib */,
+				DD77740F17090A8D00C6F37F /* MapKit.framework */,
+				DDD5A94516F6784E004B9426 /* SystemConfiguration.framework */,
+				DDD5A94316F67849004B9426 /* QuartzCore.framework */,
+				DDD5A94116F67843004B9426 /* OpenGLES.framework */,
+				DDD5A93F16F6783B004B9426 /* libz.dylib */,
+				DDD5A93D16F67835004B9426 /* libstdc++.dylib */,
+				DDD5A93B16F6782C004B9426 /* libicucore.dylib */,
+				DDD5A93916F67822004B9426 /* ImageIO.framework */,
+				DDD5A93716F6781B004B9426 /* GLKit.framework */,
+				DDD5A93516F6780F004B9426 /* CoreText.framework */,
+				DDD5A93316F67809004B9426 /* CoreLocation.framework */,
+				DDD5A93116F67802004B9426 /* CoreData.framework */,
+				DDD5A92F16F677FB004B9426 /* AVFoundation.framework */,
+				DD07525716F4D66C00370D1A /* UIKit.framework */,
+				DD07525916F4D66C00370D1A /* Foundation.framework */,
+				DD07525B16F4D66C00370D1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD07525D16F4D66C00370D1A /* WavyLeafProject */ = {
+			isa = PBXGroup;
+			children = (
+				DDE7FE6A17E0A63500C47567 /* WavyLeafProject.entitlements */,
+				DD07526616F4D66C00370D1A /* WLAppDelegate.h */,
+				DD07526716F4D66C00370D1A /* WLAppDelegate.m */,
+				DD07527816F4D76C00370D1A /* TabBarController */,
+				DD07525E16F4D66C00370D1A /* Supporting Files */,
+			);
+			path = WavyLeafProject;
+			sourceTree = "<group>";
+		};
+		DD07525E16F4D66C00370D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB735917F3C81400E4AA13 /* MJPopupViewController */,
+				DD2D8BE5171F747600B3DCD2 /* Data Storage */,
+				DD5E7FD517D12802002610A1 /* Line */,
+				DD5E7FD417D12576002610A1 /* ActionSheet */,
+				DD5E7FCD17CFAF9E002610A1 /* Reachability */,
+				DD7BDBD017CBFB3B0021763C /* Base64 */,
+				DD07526016F4D66C00370D1A /* InfoPlist.strings */,
+				DD07525F16F4D66C00370D1A /* WavyLeafProject-Info.plist */,
+				DD07526316F4D66C00370D1A /* main.m */,
+				DD07526516F4D66C00370D1A /* WavyLeafProject-Prefix.pch */,
+				DD07526916F4D66C00370D1A /* Default.png */,
+				DD07526B16F4D66C00370D1A /* Default@2x.png */,
+				DD07526D16F4D66C00370D1A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD07527816F4D76C00370D1A /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE06B5D175120880085373B /* User Account */,
+				DD2905901735D6180053E689 /* MyTripRecord */,
+				DD796E2316F94E3100AB6E97 /* MyTrip */,
+				DD07527916F4D77900370D1A /* NewRecord */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		DD07527916F4D77900370D1A /* NewRecord */ = {
+			isa = PBXGroup;
+			children = (
+				DD07527A16F4D79700370D1A /* WLNewRecordViewController.h */,
+				DD07527B16F4D79700370D1A /* WLNewRecordViewController.m */,
+				DD07527C16F4D79700370D1A /* WLNewRecordViewController.xib */,
+				DD7774001708E3D100C6F37F /* EditMap */,
+				41B7159B17FDE4BB00C824DF /* WLNewSighting.xib */,
+			);
+			name = NewRecord;
+			sourceTree = "<group>";
+		};
+		DD2905901735D6180053E689 /* MyTripRecord */ = {
+			isa = PBXGroup;
+			children = (
+				DD29059C1735DB100053E689 /* WLNewTripSightViewController.h */,
+				DD29059D1735DB100053E689 /* WLNewTripSightViewController.m */,
+				DD29059E1735DB100053E689 /* WLNewTripSightViewController.xib */,
+			);
+			name = MyTripRecord;
+			sourceTree = "<group>";
+		};
+		DD2D8BE5171F747600B3DCD2 /* Data Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D8BE6171F748600B3DCD2 /* WLDataStorage.h */,
+				DD2D8BE7171F748600B3DCD2 /* WLDataStorage.m */,
+			);
+			name = "Data Storage";
+			sourceTree = "<group>";
+		};
+		DD5E7FCD17CFAF9E002610A1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E7FD117CFB105002610A1 /* Reachability.h */,
+				DD5E7FD217CFB105002610A1 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		DD5E7FD417D12576002610A1 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				DDF946F6172D9A6F00BE9DD5 /* ActionSheetCustomPickerDelegate.h */,
+				DDC81313172DC3FF00DA8A49 /* ActionSheetStringPicker.h */,
+				DDC81314172DC3FF00DA8A49 /* ActionSheetStringPicker.m */,
+				DDF946F0172D993300BE9DD5 /* AbstractActionSheetPicker.h */,
+				DDF946F1172D993300BE9DD5 /* AbstractActionSheetPicker.m */,
+				DDF946EC172D98B700BE9DD5 /* ActionSheetCustomPicker.h */,
+				DDF946ED172D98B700BE9DD5 /* ActionSheetCustomPicker.m */,
+			);
+			name = ActionSheet;
+			sourceTree = "<group>";
+		};
+		DD5E7FD517D12802002610A1 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				DD965F6A176972840012B5F2 /* WLline.m */,
+				DD965F69176972840012B5F2 /* WLline.h */,
+			);
+			name = Line;
+			sourceTree = "<group>";
+		};
+		DD5E7FD617D12879002610A1 /* Additional Account Details */ = {
+			isa = PBXGroup;
+			children = (
+				DD97E2F517777F7F0072E874 /* WLAccountExtendedVC.h */,
+				DD97E2F617777F7F0072E874 /* WLAccountExtendedVC.m */,
+				DD97E2F717777F7F0072E874 /* WLAccountExtendedVC.xib */,
+			);
+			name = "Additional Account Details";
+			sourceTree = "<group>";
+		};
+		DD7774001708E3D100C6F37F /* EditMap */ = {
+			isa = PBXGroup;
+			children = (
+				DD7774071708E9F500C6F37F /* WLEditMapViewController.h */,
+				DD7774081708E9F500C6F37F /* WLEditMapViewController.m */,
+				DD7774091708E9F600C6F37F /* WLEditMapViewController.xib */,
+				DDAF8DC4170A45ED00601738 /* MKAnnotation Object */,
+			);
+			name = EditMap;
+			sourceTree = "<group>";
+		};
+		DD796E2316F94E3100AB6E97 /* MyTrip */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB734C17F3C3F600E4AA13 /* Popup */,
+				DD796E2516F94E4800AB6E97 /* WLTripViewController.h */,
+				DD796E2616F94E4800AB6E97 /* WLTripViewController.m */,
+				DD796E2716F94E4800AB6E97 /* WLTripViewController.xib */,
+			);
+			name = MyTrip;
+			sourceTree = "<group>";
+		};
+		DD7BDBD017CBFB3B0021763C /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7BDBD117CBFB6D0021763C /* Base64.h */,
+				DD7BDBD217CBFB6D0021763C /* Base64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
+		DDAF8DC4170A45ED00601738 /* MKAnnotation Object */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF8DC5170A47ED00601738 /* WLMapPoint.h */,
+				DDAF8DC6170A47ED00601738 /* WLMapPoint.m */,
+			);
+			name = "MKAnnotation Object";
+			sourceTree = "<group>";
+		};
+		DDBB734C17F3C3F600E4AA13 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB735417F3C60300E4AA13 /* WLPopupView.h */,
+				DDBB735517F3C60300E4AA13 /* WLPopupView.m */,
+				DDBB735617F3C60300E4AA13 /* WLPopupView.xib */,
+			);
+			name = Popup;
+			sourceTree = "<group>";
+		};
+		DDBB735917F3C81400E4AA13 /* MJPopupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDBB735A17F3C84100E4AA13 /* MJPopupBackgroundView.h */,
+				DDBB735B17F3C84100E4AA13 /* MJPopupBackgroundView.m */,
+				DDBB735C17F3C84100E4AA13 /* UIViewController+MJPopupViewController.h */,
+				DDBB735D17F3C84100E4AA13 /* UIViewController+MJPopupViewController.m */,
+			);
+			name = MJPopupViewController;
+			sourceTree = "<group>";
+		};
+		DDE06B5D175120880085373B /* User Account */ = {
+			isa = PBXGroup;
+			children = (
+				DDE06B571751207A0085373B /* WLCreateAccountVC.h */,
+				DDE06B581751207A0085373B /* WLCreateAccountVC.m */,
+				DDE06B591751207A0085373B /* WLCreateAccountVC.xib */,
+				DD5E7FD617D12879002610A1 /* Additional Account Details */,
+			);
+			name = "User Account";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD07525216F4D66C00370D1A /* WavyLeafProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD07527116F4D66C00370D1A /* Build configuration list for PBXNativeTarget "WavyLeafProject" */;
+			buildPhases = (
+				DD07524F16F4D66C00370D1A /* Sources */,
+				DD07525016F4D66C00370D1A /* Frameworks */,
+				DD07525116F4D66C00370D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WavyLeafProject;
+			productName = WavyLeafProject;
+			productReference = DD07525316F4D66C00370D1A /* WavyLeafProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD07524A16F4D66C00370D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Eric Forbes";
+				TargetAttributes = {
+					DD07525216F4D66C00370D1A = {
+						DevelopmentTeam = A38AK53TN9;
+					};
+				};
+			};
+			buildConfigurationList = DD07524D16F4D66C00370D1A /* Build configuration list for PBXProject "WavyLeafProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD07524816F4D66C00370D1A;
+			productRefGroup = DD07525416F4D66C00370D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD07525216F4D66C00370D1A /* WavyLeafProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD07525116F4D66C00370D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD07526216F4D66C00370D1A /* InfoPlist.strings in Resources */,
+				DD07526A16F4D66C00370D1A /* Default.png in Resources */,
+				41B7159C17FDE4BB00C824DF /* WLNewSighting.xib in Resources */,
+				DD07526C16F4D66C00370D1A /* Default@2x.png in Resources */,
+				DD07526E16F4D66C00370D1A /* Default-568h@2x.png in Resources */,
+				DD07527E16F4D79700370D1A /* WLNewRecordViewController.xib in Resources */,
+				DD796E2916F94E4800AB6E97 /* WLTripViewController.xib in Resources */,
+				41A7AD9917FC817200BFD66B /* GoogleMaps.bundle in Resources */,
+				DD77740B1708E9F600C6F37F /* WLEditMapViewController.xib in Resources */,
+				DD03A62C17150A5C00B29C78 /* plus.png in Resources */,
+				DD03A62E17150A7200B29C78 /* plus@2x.png in Resources */,
+				DD03A63017150FF300B29C78 /* play@2x.png in Resources */,
+				DD03A63217150FFC00B29C78 /* play.png in Resources */,
+				DDC8131D1730BA0B00DA8A49 /* ic_camera.png in Resources */,
+				DD2905A01735DB100053E689 /* WLNewTripSightViewController.xib in Resources */,
+				DD2905AB1737ED190053E689 /* WLAppIcon.png in Resources */,
+				DD2905AD1737ED1D0053E689 /* WLAppIcon@2x.png in Resources */,
+				DDE06B5B1751207A0085373B /* WLCreateAccountVC.xib in Resources */,
+				DD97E2F917777F7F0072E874 /* WLAccountExtendedVC.xib in Resources */,
+				DDC241F517E4190800A778E9 /* WLAppIcon-120.png in Resources */,
+				DDC241F717E4192600A778E9 /* WLAppIcon-152.png in Resources */,
+				DDBB735817F3C60300E4AA13 /* WLPopupView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD07524F16F4D66C00370D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBB735F17F3CDDD00E4AA13 /* MJPopupBackgroundView.m in Sources */,
+				DDBB735E17F3CDBE00E4AA13 /* UIViewController+MJPopupViewController.m in Sources */,
+				DD07526416F4D66C00370D1A /* main.m in Sources */,
+				DD07526816F4D66C00370D1A /* WLAppDelegate.m in Sources */,
+				DD07527D16F4D79700370D1A /* WLNewRecordViewController.m in Sources */,
+				DD796E2816F94E4800AB6E97 /* WLTripViewController.m in Sources */,
+				DD77740A1708E9F600C6F37F /* WLEditMapViewController.m in Sources */,
+				DDAF8DC7170A47ED00601738 /* WLMapPoint.m in Sources */,
+				DD2D8BE8171F748600B3DCD2 /* WLDataStorage.m in Sources */,
+				DDF946EE172D98B700BE9DD5 /* ActionSheetCustomPicker.m in Sources */,
+				DDF946F2172D993300BE9DD5 /* AbstractActionSheetPicker.m in Sources */,
+				DDC81315172DC3FF00DA8A49 /* ActionSheetStringPicker.m in Sources */,
+				DD29059F1735DB100053E689 /* WLNewTripSightViewController.m in Sources */,
+				DDE06B5A1751207A0085373B /* WLCreateAccountVC.m in Sources */,
+				DD965F6B176972840012B5F2 /* WLline.m in Sources */,
+				DD97E2F817777F7F0072E874 /* WLAccountExtendedVC.m in Sources */,
+				DD7BDBD317CBFB6D0021763C /* Base64.m in Sources */,
+				DD5E7FD317CFB105002610A1 /* Reachability.m in Sources */,
+				DDBB735717F3C60300E4AA13 /* WLPopupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD07526016F4D66C00370D1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD07526116F4D66C00370D1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD07526F16F4D66C00370D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PROVISIONING_PROFILE = "D5AD7A85-888A-4108-8025-9598DD045E5F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D5AD7A85-888A-4108-8025-9598DD045E5F";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD07527016F4D66C00370D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PROVISIONING_PROFILE = "D5AD7A85-888A-4108-8025-9598DD045E5F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D5AD7A85-888A-4108-8025-9598DD045E5F";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD07527216F4D66C00370D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					/Users/EricForbes/Documents/WavyLeafProject,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WavyLeafProject/WavyLeafProject-Prefix.pch";
+				INFOPLIST_FILE = "WavyLeafProject/WavyLeafProject-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = WavyLeafProject;
+				PROVISIONING_PROFILE = "9F042081-A0AD-413B-A33E-96DD1DF3564E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9F042081-A0AD-413B-A33E-96DD1DF3564E";
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD07527316F4D66C00370D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sidd Kaza (F3B42WDY79)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					/Users/EricForbes/Documents/WavyLeafProject,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WavyLeafProject/WavyLeafProject-Prefix.pch";
+				INFOPLIST_FILE = "WavyLeafProject/WavyLeafProject-Info.plist";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = WavyLeafProject;
+				PROVISIONING_PROFILE = "100FF8AD-2CB7-4879-A84E-FDB4C6B0EC80";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "100FF8AD-2CB7-4879-A84E-FDB4C6B0EC80";
+				STRIP_INSTALLED_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD07524D16F4D66C00370D1A /* Build configuration list for PBXProject "WavyLeafProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD07526F16F4D66C00370D1A /* Debug */,
+				DD07527016F4D66C00370D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD07527116F4D66C00370D1A /* Build configuration list for PBXNativeTarget "WavyLeafProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD07527216F4D66C00370D1A /* Debug */,
+				DD07527316F4D66C00370D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD07524A16F4D66C00370D1A /* Project object */;
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WLCreateAccountVC">
+            <connections>
+                <outlet property="birthYearLabel" destination="550" id="909"/>
+                <outlet property="emailLabel" destination="551" id="911"/>
+                <outlet property="nameLabel" destination="549" id="910"/>
+                <outlet property="view" destination="546" id="912"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="546">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="810-V7-5zh">
+                    <rect key="frame" x="0.0" y="66" width="320" height="282"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Create Account" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="547">
+                            <rect key="frame" x="20" y="0.0" width="305" height="62"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="305" id="556"/>
+                                <constraint firstAttribute="height" constant="62" id="557"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="33"/>
+                            <color key="textColor" red="0.0013617343300000001" green="0.0026642628209999999" blue="5.9205840460000003e-05" alpha="0.76000000000000001" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Enter Account Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="548">
+                            <rect key="frame" x="25" y="56" width="280" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="554"/>
+                                <constraint firstAttribute="width" constant="280" id="555"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="549">
+                            <rect key="frame" x="20" y="165" width="215" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="215" id="553"/>
+                            </constraints>
+                            <color key="textColor" red="0.19978861279999999" green="0.56829958550000004" blue="0.017250631110000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Birth Year" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="550">
+                            <rect key="frame" x="20" y="115" width="125" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="125" id="552"/>
+                            </constraints>
+                            <color key="textColor" red="0.19978861279999999" green="0.56829958550000004" blue="0.017250631110000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="551">
+                            <rect key="frame" x="20" y="217" width="210" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="210" id="949"/>
+                            </constraints>
+                            <color key="textColor" red="0.19978861279999999" green="0.56829958550000004" blue="0.017250631110000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.92014110329999999" green="0.92014110329999999" blue="0.92014110329999999" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>
